@@ -150,7 +150,12 @@ body {
   font-size: 17px;
 }
 
-/* Dropdown */
+header {
+  color: white;
+  background-color: #0b8a0b;
+  padding: 2%;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;

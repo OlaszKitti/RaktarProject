@@ -2,6 +2,10 @@ const Layout = ({ children }) => {
   return (
     <>
 
+      <header>
+        <h1>Dragon Könyv raktár</h1>
+      </header>
+
   <div className="navbar">
     <div className="dropdown">
       <button className="dropbtn">Kategória</button>
@@ -32,11 +36,6 @@ const Layout = ({ children }) => {
     </div>
   </div>
 
-
-
-      <header>
-        <h1>Dragon Könyv raktár</h1>
-      </header>
 
       <main>
         <section id="main" className="products">
